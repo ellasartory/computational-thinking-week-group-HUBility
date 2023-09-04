@@ -5,3 +5,7 @@ def return_name():
 
 print(return_name())
 
+def Jenny():
+    return(Jenny)
+
+
