@@ -14,7 +14,7 @@ def Jeremy():
    return "Jeremy"
 
 
-def paragraph_five():
+def paragraph5():
     name1 = jack()
     name2 = Jenny()
     name3 = Jane()
@@ -24,7 +24,7 @@ def paragraph_five():
     return story
 print(paragraph_five())
 
-def paragraph_ten():
+def paragraph10():
     name1 = jack()
     name2 = Jenny()
     name3 = Jane()
@@ -34,7 +34,7 @@ def paragraph_ten():
     return story2
 print(paragraph_ten())
     
-def paragraph_fiveteen():
+def paragraph15():
     name1 = jack()
     name2 = Jenny()
     name3 = Jane()
