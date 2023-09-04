@@ -7,7 +7,7 @@ print(return_name())
 
 #function to return character name
 def Jenny():
-    return(Jenny)
+    return "Jenny"
 
 #import name functioon from the others 
 from ella import Jenny
