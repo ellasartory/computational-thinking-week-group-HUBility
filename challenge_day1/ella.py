@@ -3,6 +3,5 @@ def return_name():
     return name
 
 
-word = return_name()
-print(word)
+print(return_name())
 
