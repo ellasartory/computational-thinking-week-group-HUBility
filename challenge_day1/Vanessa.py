@@ -54,4 +54,4 @@ def paragraph16():
     
     story_2= f"On a Thursday the characters decided to teach each other instruments.{name_Jeremy}taught the trumpet.    {name_Janine} taught the piano.{name_John} taught the trombone.{name_Jane} taught the violin.{name_Jenny}taught      the cello.{name_Jack} taught the saxophone.The characters had great fun teaching eac oter." 
    
-   return story_2
+    return story_2
