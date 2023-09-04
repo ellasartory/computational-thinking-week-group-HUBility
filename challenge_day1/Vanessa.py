@@ -18,7 +18,7 @@ from Cristian import John
 from Ioanna import Janine
 from Alicja import Jack
 
-def paragraph_6():
+def paragraph6():
     name_Jack = Jack()
     name_Jenny = Jenny()
     name_Jeremy = Jeremy()
@@ -30,7 +30,7 @@ def paragraph_6():
     
     return(story)
 
-def paragraph_11():
+def paragraph11():
     
     name_Jack = Jack()
     name_Jenny = Jenny()
@@ -43,7 +43,7 @@ def paragraph_11():
     
     return(story_1)
     
-def paragraph_13():
+def paragraph13():
     
     name_Jack = Jack()
     name_Jenny = Jenny()
