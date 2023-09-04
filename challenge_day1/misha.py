@@ -1,3 +1,6 @@
-name = 'Misha'
+def my_name():
+    name= "Misha"
+    return(name) 
 
-print(name)
+noun= my_name()
+print(noun)  
