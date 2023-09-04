@@ -3,12 +3,13 @@ def my_name():
     return(name) 
 
 noun= my_name()
-print(noun)  
+
 
 def Jane():
     n="Jane"
     return(n)
 j= story_name()
+
 
 
 from ella import Jenny
