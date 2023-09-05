@@ -21,7 +21,7 @@ def paragraph3(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_
 
 def paragraph8(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_Jane):
 
-    story = f"Tuesday was a fun autumn day for everyone so.... On Tuesday {name_Jane} went to a bar. {name_Jack} biked through town. {name_Jenny} went to a museum. {name_Janine} walked through the center. {name_Jeremy} went to a cozy café. {name_John} met his date at a Spani restauroont."
+    story = f"Tuesday was a fun autumn day for everyone so.... On Tuesday {name_Jane} went to a bar. {name_Jack} biked through town. {name_Jenny} went to a museum. {name_Janine} walked through the center. {name_Jeremy} went to a cozy café. {name_John} met his date at a Spani restaurant."
     return story 
 
 
