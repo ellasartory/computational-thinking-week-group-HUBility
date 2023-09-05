@@ -9,15 +9,6 @@ def Jane():
     return "Jane"
 
 
-
-
-from ella import Jenny
-from Vanessa import Jane
-from misha import Jeremy
-from Cristian import John
-from Ioanna import Janine
-from Alicja import Jack
-
 def paragraph6(name_jack,name_Jenny,name_Jeremy,name_Janine,name_John,name_Jane):
     name_Jack = Jack()
     name_Jenny = Jenny()
@@ -26,11 +17,11 @@ def paragraph6(name_jack,name_Jenny,name_Jeremy,name_Janine,name_John,name_Jane)
     name_John = John()
     name_Jane = Jane()
 
-    story= f"On Saturday {name_Jenny()} went out to party. {name_Jack()} met a friend.{name_Janine()} built a         treehouse.{name_John()} worked at a cafe.{name_Jeremy()} babysat his little sibling.{name_Jane()} went or vacaton."
+    story= f"On Saturday {name_Jenny()} went out to party. {name_Jack()} met a friend.{name_Janine()} built a       treehouse.{name_John()} worked at a cafe.{name_Jeremy()} babysat his little sibling.{name_Jane()} went or vacaton."
     
     return story
 
-def paragraph11((name_jack,name_Jenny,name_Jeremy,name_Janine,name_John,name_Jane):
+def paragraph11(name_jack,name_Jenny,name_Jeremy,name_Janine,name_John,name_Jane):
     
     name_Jack = Jack()
     name_Jenny = Jenny()
@@ -43,7 +34,7 @@ def paragraph11((name_jack,name_Jenny,name_Jeremy,name_Janine,name_John,name_Jan
     
     return story_1
     
-def paragraph16((name_jack,name_Jenny,name_Jeremy,name_Janine,name_John,name_Jane):
+def paragraph16(name_jack,name_Jenny,name_Jeremy,name_Janine,name_John,name_Jane):
     
     name_Jack = Jack()
     name_Jenny = Jenny()
