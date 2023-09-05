@@ -17,7 +17,7 @@ def paragraph1(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_
 
 def paragraph12(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_Jane):
 
-    story= f"On Saturday {name_Jack} went out to party. {name_Janine} met a friend. {name_John} built a treehouse. Jeremy worked at a cafe. {name_Jane} babysat his little sibling. {name_Jenny} went on vaaacation."
+    story= f"On Saturday {name_Jack} went out to party. {name_Janine} met a friend. {name_John} built a treehouse. Jeremy worked at a cafe. {name_Jane} babysat his little sibling. {name_Jenny} went on vacation."
     return story
 
 
