@@ -6,12 +6,6 @@ name = get_my_name()
 
 print(name)
 
-from ella import Jenny
-from Vanessa import Jane
-from misha import Jeremy
-from Cristian import John
-from Ioanna import Janine
-
 def get_my_name2()
     my_name2= "John"
     return my_name2

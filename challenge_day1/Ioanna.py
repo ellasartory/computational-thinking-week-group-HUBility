@@ -4,13 +4,6 @@ def name():
 
 def Janine():
     return "Janine"
-
-    name_Jack = Jack()
-    name_Jenny = Jenny()
-    name_Jeremy = Jeremy()
-    name_Janine = Janine()
-    name_John = John()
-    name_Jane = Jane()
     
 def paragraph4(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_Jane):
     paragraph = f'On a Thursday in the summer. {name_Jack()} played the trumpet.{name_Jenny()} played the piano. {name_Jeremy()} played the trombone. Janine played the violin.{name_John()} played the cello.{name_Jane()} played tha sxxophone.'

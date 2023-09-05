@@ -1,12 +1,6 @@
 def my_name():
     name = "Misha"
-    return(name) 
-
-name_Jack = Jack()
-name_Jenny = Jenny()
-name_Jane = Jane()
-name_John = John()
-name_Janine = Janine()
+    return(name)
 
 def Jeremy():
    return "Jeremy"
