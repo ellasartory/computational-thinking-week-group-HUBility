@@ -11,7 +11,7 @@ def paragraph4(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_
     return paragraph
     
 def paragraph9(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_Jane):
-    paragraph = f'On Wednesday {name_Jenny} ate some oranges. {name_Jeremy} decided to bake some cookies. Janine ate some nice french fries. {name_John} had some nice cola. {name_Jane} ate a good apple. {name_Jack} had some expansive lonster.'
+    paragraph = f'On Wednesday {name_Jenny} ate some oranges. {name_Jeremy} decided to bake some cookies. Janine ate some nice french fries. {name_John} had some nice cola. {name_Jane} ate a good apple. {name_Jack} had some expensive lonster.'
     return paragraph
 
 def paragraph14(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_Jane):
