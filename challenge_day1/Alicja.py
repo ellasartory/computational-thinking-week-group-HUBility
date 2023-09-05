@@ -10,7 +10,7 @@ def Jack():
 
 
 def paragraph1(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_Jane):
-    story = f" It was a warm summer. Monday was a regular day. On Monday {name_Jenny} went swimming. Jack went to play soccer. {name_Jeremy} went for a run. {name_Janine} went canoeing. {name_Jane} Played tennis and {name_John} was sick so he laid the entire day in bud."
+    story = f" It was a warm summer. Monday was a regular day. On Monday {name_Jenny} went swimming. Jack went to play soccer. {name_Jeremy} went for a run. {name_Janine} went canoeing. {name_Jane} Played tennis and {name_John} was sick so he laid the entire day in bed."
     return story 
 
 
