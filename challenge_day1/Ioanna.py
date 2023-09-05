@@ -15,5 +15,5 @@ def paragraph9(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_
     return paragraph
 
 def paragraph14(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_Jane):
-    paragraph = f'Tuesday was a boring day for everyone so.... On Tuesday {name_Jack} went to a bar. {name_Jane} biked through town. {name_John} went to a museum. Janine walked through the center. {name_Jeremy} went to a cozy café. {name_Jenny} met her date at a Spinish restuurant.'
+    paragraph = f'Tuesday was a boring day for everyone so.... On Tuesday {name_Jack} went to a bar. {name_Jane} biked through town. {name_John} went to a museum. Janine walked through the center. {name_Jeremy} went to a cozy café. {name_Jenny} met her date at a Spanish restuurant.'
     return paragraph
