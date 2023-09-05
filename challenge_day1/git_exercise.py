@@ -2,6 +2,7 @@ def teamname():
     return('This is Team HUBility. We are:')
 print(teamname())
 
+
 # <<<<<<< HEAD
 # Import all the modules
 import Ioanna
@@ -10,12 +11,28 @@ import Vanessa
 import ella
 import Alicja
 import Cristian
+
+import name
+import my_name
+import get_my_name
+import my_name_1
+import return_name
+import return_name_1
+
 import name_Jack
 import name_Jenny
 import name_Jeremy
 import name_Janine
 import name_John
 import name_Jane
+
+name_Jack = Jack()
+name_Jenny = Jenny()
+name_Jeremy = Jeremy()
+name_Janine = Janine()
+name_John = John()
+name_Jane = Jane()
+
 
 # Call each paragraph 
 

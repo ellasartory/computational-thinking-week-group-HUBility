@@ -3,7 +3,7 @@ def my_name():
     return(name)
 
 def Jeremy():
-   return "Jeremy"
+    return "Jeremy"
 
 
 def paragraph5(name_Jack, name_Jenny, name_Jane, name_John, name_Janine):
