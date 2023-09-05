@@ -2,7 +2,7 @@ def teamname():
     return('This is Team HUBility. We are:')
 print(teamname())
 
-<<<<<<< HEAD
+# <<<<<<< HEAD
 # Import all the modules
 import Ioanna
 import misha
