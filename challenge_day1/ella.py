@@ -3,6 +3,7 @@
 def return_name():
     return "Ella"
 
+print(return_name())
 
 
 #function to return character name
