@@ -17,7 +17,7 @@ print(name2)
 
 def paragraph2(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_Jane):
 
-    story2= f"Tuesday was a boring summer day for everyone so.... On Tuesday {name_John}went to a bar. {name_Jenny} biked through town. {name_Jack} went to a museum. {name_Jeremy} walked through the center. {name_Janine} went to a cozy cafe. {name_Jane} met her date at a Spanishhh restauranntt."
+    story2= f"Tuesday was a boring summer day for everyone so.... On Tuesday {name_John}went to a bar. {name_Jenny} biked through town. {name_Jack} went to a museum. {name_Jeremy} walked through the center. {name_Janine} went to a cozy cafe. {name_Jane} met her date at a Spanish restauranntt."
     return story2
 
 
