@@ -2,40 +2,24 @@ def name():
     name = 'Ioanna'
     return name
 
-from Alicja import Jack
-from ella import Jenny
-from misha import Jeremy
-from cristian import John
-from vanessa import Jane
-
 def Janine():
-    name2 = 'Janine'
-    return name2
-print (janine())
+    return "Janine"
 
-def paragraph4():
-    name1 = jack()
-    name2 = jenny()
-    name3 = jeremy()
-    name4 = john()
-    name5 = jane()
-    paragraph = f'On a Thursday in the summer.{name1} played the trumpet.{name2} played the piano. {name3} played the trombone. Janine played the violin.{name4} played the cello.{name5} plyyed the sxxophone.'
+    name_Jack = Jack()
+    name_Jenny = Jenny()
+    name_Jeremy = Jeremy()
+    name_Janine = Janine()
+    name_John = John()
+    name_Jane = Jane()
+    
+def paragraph4(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_Jane):
+    paragraph = f'On a Thursday in the summer. {name_Jack()} played the trumpet.{name_Jenny()} played the piano. {name_Jeremy()} played the trombone. Janine played the violin.{name_John()} played the cello.{name_Jane()} played tha sxxophone.'
+    return paragraph
+    
+def paragraph9(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_Jane):
+    paragraph = f'On Wednesday {name_Jenny()} ate some oranges. {name_Jeremy()} decided to bake some cookies. Janine ate some nice french fries. {name_John()} had some nice cola. {name_Jane()} ate a good apple. {name_Jack()} had some expynsive lonster.'
     return paragraph
 
-def paragraph9():
-    name1 = jack()
-    name2 = jenny()
-    name3 = jeremy()
-    name4 = john()
-    name5 = jane()
-    paragraph = f'On Wednesday {name2} ate some oranges.{name3} decided to bake some cookies. Janine ate some nice french fries.{name4} had some nice cola. {name5} ate a good apple. {name1} had some expynsive lonster.'
-    return paragraph
-
-def paragraph14():
-    name1 = jack()
-    name2 = jenny()
-    name3 = jeremy()
-    name4 = john()
-    name5 = jane()
-    paragraph = f'Tuesday was a boring day for everyone so.... On Tuesday {name1} went to a bar. {name5} biked through town.{name4} went to a museum. Janine walked through the center. {name3} went to a cozy café. {name2} met her date at a Spinish restuurant.'
+def paragraph14(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_Jane):
+    paragraph = f'Tuesday was a boring day for everyone so.... On Tuesday {name_Jack()} went to a bar. {name_Jane()} biked through town. {name_John()} went to a museum. Janine walked through the center. {name_Jeremy()} went to a cozy café. {name_Jenny()} met her date at a Spinish restuurant.'
     return paragraph
