@@ -2,7 +2,7 @@ def my_name_1():
     name= "Vanessa"
     return(name) 
 
-noun= my_name()
+noun= my_name_1()
 
 
 def Jane():
