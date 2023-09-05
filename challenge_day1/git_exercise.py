@@ -14,7 +14,7 @@ import Cristian
 
 # Call each paragraph 
 
-print(Ioanna.paragraph1(Alicja.Jack(), ella.Jenny(), misha.Jeremy(), Ioanna.Janine(), Cristian.John(), Vanessa.Jane()))
+print(Alicja.paragraph1(Alicja.Jack(), ella.Jenny(), misha.Jeremy(), Ioanna.Janine(), Cristian.John(), Vanessa.Jane()))
 print(Cristian.paragraph2(Alicja.Jack(), ella.Jenny(), misha.Jeremy(), Ioanna.Janine(), Cristian.John(), Vanessa.Jane()))
 print(ella.paragraph3(Alicja.Jack(), ella.Jenny(), misha.Jeremy(), Ioanna.Janine(), Cristian.John(), Vanessa.Jane()))
 print(Ioanna.paragraph4(Alicja.Jack(), ella.Jenny(), misha.Jeremy(), Ioanna.Janine(), Cristian.John(), Vanessa.Jane()))
