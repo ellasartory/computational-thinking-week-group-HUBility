@@ -27,6 +27,6 @@ def paragraph8(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_
 
 def paragraph13(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_Jane):
 
-    story = f"It was winter. Monday was a regular day. On Monday {name_Jeremy} went swimming. {name_Janine} went to play soccer. {name_Jane} went for a run. {name_John} went canoeing. {name_Jenny} Played tennis and {name_Jack} was sick so he laid the entire day at bed."
+    story = f"It was winter. Monday was a regular day. On Monday {name_Jeremy} went swimming. {name_Janine} went to play soccer. {name_Jane} went for a run. {name_John} went canoeing. {name_Jenny} Played tennis and {name_Jack} was sick so he laid the entire day in bed."
 
     return story  
