@@ -3,7 +3,10 @@ def teamname():
 print(teamname())
 
 
+<<<<<<< HEAD
 # <<<<<<< HEAD
+=======
+>>>>>>> 0e1fb12702c16b319738ea55c55c61c9efbe7ac9
 # Import all the modules
 import Ioanna
 import misha
@@ -11,6 +14,7 @@ import Vanessa
 import ella
 import Alicja
 import Cristian
+<<<<<<< HEAD
 
 import name
 import my_name
@@ -25,6 +29,14 @@ import name_Jeremy
 import name_Janine
 import name_John
 import name_Jane
+=======
+import Jack
+import Jenny
+import Jeremy
+import Janine
+import John
+import Jane
+>>>>>>> 0e1fb12702c16b319738ea55c55c61c9efbe7ac9
 
 name_Jack = Jack()
 name_Jenny = Jenny()
@@ -55,7 +67,7 @@ print(Vanessa.paragraph16(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_
 print(Alicja.paragraph17(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_Jane))
 print(Cristian.paragraph18(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_Jane))
 
-# =======
+
 #import Ioanna, misha, Vanessa, ella, Alicja, Cristian
 
 # from Alicja import Jack

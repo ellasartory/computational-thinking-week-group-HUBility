@@ -1,7 +1,7 @@
 def return_name_1():
     return "Alicja"
 
-print(return_name())
+
 
 def Jack():
     return "Jack"
@@ -18,7 +18,6 @@ def paragraph1(name_Jenny, name_Jack, name_Jeremy, name_Janine, name_Jane, name_
     story = f" It was a warm summer. Monday was a regular day. On Monday import {name_Jenny()} went swimming. Jack went to play soccer. {name_Jeremy} went for a run. {name_Janine} went canoeing. {name_Jane} Played tennis and {name_John} was sick so he laid the entire day in bed."
     return story 
 
-print(paragraph1())
 
 
 def paragraph12(name_Jack, name_Janine, name_John, name_Jeremy, name_Jane, name_Jenny):
@@ -26,7 +25,6 @@ def paragraph12(name_Jack, name_Janine, name_John, name_Jeremy, name_Jane, name_
     story= f"On Saturday {name_Jack} went out to party. {name_Janine} met a friend. {name_John} built a treehouse. Jeremy worked at a cafe. {name_Jane} babysat his little sibling. {name_Jenny} went on vacation."
     return story
 
-print(paragraph12())
 
 def paragraph17(name_Jenny, name_Janine, name_Jeremy, name_Jane, name_Jack, name_John):
 
