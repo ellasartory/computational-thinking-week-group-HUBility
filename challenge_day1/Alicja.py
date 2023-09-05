@@ -1,21 +1,15 @@
+
 def return_name_1():
     return "Alicja"
-
 
 
 def Jack():
     return "Jack"
 
 
-name_Jack = Jack()
-name_Jenny = Jenny()
-name_Jeremy = Jeremy()
-name_Janine = Janine()
-name_John = John()
-name_Jane = Jane()
 
 def paragraph1(name_Jenny, name_Jack, name_Jeremy, name_Janine, name_Jane, name_John):
-    story = f" It was a warm summer. Monday was a regular day. On Monday import {name_Jenny()} went swimming. Jack went to play soccer. {name_Jeremy} went for a run. {name_Janine} went canoeing. {name_Jane} Played tennis and {name_John} was sick so he laid the entire day in bed."
+    story = f" It was a warm summer. Monday was a regular day. On Monday import {name_Jenny} went swimming. Jack went to play soccer. {name_Jeremy} went for a run. {name_Janine} went canoeing. {name_Jane} Played tennis and {name_John} was sick so he laid the entire day in bed."
     return story 
 
 
