@@ -23,7 +23,7 @@ def paragraph2(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_
 
 def paragraph7(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_Jane):
 
-    story7= f"Monday was a regular autumn day. On Monday {name_Jack} went swimming. {name_Jeremy} went to play soccer. {name_Janine} went for a run. {name_Jane} went canoeing. {name_John} Played tennis and {name_Jeremy} was sick so she laid the entire day innn beeedd."
+    story7= f"Monday was a regular autumn day. On Monday {name_Jack} went swimming. {name_Jeremy} went to play soccer. {name_Janine} went for a run. {name_Jane} went canoeing. {name_John} Played tennis and {name_Jeremy} was sick so she laid the entire day in beeedd."
     return story7
     
 
