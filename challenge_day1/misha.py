@@ -1,6 +1,7 @@
 def my_name():
     name = "Misha"
     return(name)
+print(my_name())
 
 def Jeremy():
     return "Jeremy"
