@@ -4,6 +4,13 @@ print(teamname())
 
 #import Ioanna, misha, Vanessa, ella, Alicja, Cristian
 
+from Alicja import Jack
+from ella import Jenny
+from Vanessa import Jane
+from Cristian import John
+from Ioanna import Janine
+from misha import Jeremy
+
 from Alicja import paragraph1
 from Cristian import paragraph2
 from Ella import paragraph3
