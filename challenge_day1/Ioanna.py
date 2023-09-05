@@ -4,7 +4,6 @@ def name():
 
 def Janine():
     return "Janine"
-print (janine())
 
 name_Jack = Jack()
 name_Jenny = Jenny()
