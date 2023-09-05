@@ -1,6 +1,7 @@
 def name():
     name = 'Ioanna'
     return name
+print(name())
 
 def Janine():
     return "Janine"
