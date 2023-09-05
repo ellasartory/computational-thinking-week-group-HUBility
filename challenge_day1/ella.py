@@ -15,7 +15,7 @@ def Jenny():
 #order of names needs to be the same here
 def paragraph3(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_Jane):
 
-    story = f"On Wednesday in the summer. {name_Jack} ate some oranges. {name_Jenny} decided to bake some cookies. {name_Jeremy} ate some nice french fries. {name_Janine} had some nice cola. {name_John} ate a good apple. {name_Jane} had some expensiveaa lobster."
+    story = f"On Wednesday in the summer. {name_Jack} ate some oranges. {name_Jenny} decided to bake some cookies. {name_Jeremy} ate some nice french fries. {name_Janine} had some nice cola. {name_John} ate a good apple. {name_Jane} had some expensive lobster."
     return story 
 
 
