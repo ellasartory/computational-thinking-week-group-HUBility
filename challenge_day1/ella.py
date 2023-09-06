@@ -16,14 +16,21 @@ def Jenny():
 def paragraph3(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_Jane):
 
     story = f"On Wednesday in the summer. {name_Jack} ate some oranges. {name_Jenny} decided to bake some cookies. {name_Jeremy} ate some nice french fries. {name_Janine} had some nice cola. {name_John} ate a good apple. {name_Jane} had some expensive lobster."
+<<<<<<< HEAD
 
+=======
+>>>>>>> 347f052cf68cb71ae37de79252e83cf3d6843257
     return story 
 
 
 def paragraph8(name_Jack, name_Jenny, name_Jeremy, name_Janine, name_John, name_Jane):
 
+<<<<<<< HEAD
     story = f"Tuesday was a fun autumn day for everyone so.... On Tuesday {name_Jane} went to a bar. {name_Jack} biked through town. {name_Jenny} went to a museum. {name_Janine} walked through the center. {name_Jeremy} went to a cozy café. {name_John} met his date at a Spanish restaurant."
 
+=======
+    story = f"Tuesday was a fun autumn day for everyone so.... On Tuesday {name_Jane} went to a bar. {name_Jack} biked through town. {name_Jenny} went to a museum. {name_Janine} walked through the center. {name_Jeremy} went to a cosy café. {name_John} met his date at a Spanish restaurant."
+>>>>>>> 347f052cf68cb71ae37de79252e83cf3d6843257
     return story 
 
 
