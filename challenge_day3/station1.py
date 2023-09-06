@@ -18,6 +18,3 @@ def solution_station_1(n):
         return solution_station_1(n-1) + solution_station_1(n-2)
  
  
-#insert number
-number = x
-print(solution_station_1(x))
