@@ -1,5 +1,4 @@
 import datetime
-<<<<<<< HEAD
 
 def solution_station_2(date_str):
     # Parse the input date string into a datetime object
@@ -17,9 +16,7 @@ def solution_station_2(date_str):
     return kanji_day
 
 
-# Example usage:
-date_str = "2023-06-12"
-print(solution_station_2(date_str))
+
 
     
     
