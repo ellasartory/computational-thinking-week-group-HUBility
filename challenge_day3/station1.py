@@ -1,20 +1,18 @@
 
 #Fibonacci numbers
 def solution_station_1(n):
- 
-    # Check if input is 0 
-    if n < 0:
-        print("Input not possible")
- 
-    # Check if n is 0
-    elif n == 0:
-        return 0
- 
-    # Check if n is 1,2
-    elif n == 1 or n == 2:
-        return 1
- 
-    else:
-        return solution_station_1(n-1) + solution_station_1(n-2)
- 
- 
+    if n <= 0:
+        return []
+
+    sequence = [0, 1]  # Initialize the sequence with the first two Fibonacci numbers
+
+    if n <= 1:
+        return sequence[:n + 1]
+
+    a, b = 0, 1
+    for _ in range(2, n + 1):
+        next_fib = a + b
+        sequence.append(next_fib)
+        a, b = b, next_fib
+
+    return sequence
