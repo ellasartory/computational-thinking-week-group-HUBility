@@ -1,5 +1,4 @@
 import datetime
-<<<<<<< HEAD
 
 def solution_station_2(date_str):
     # Parse the input date string into a datetime object
