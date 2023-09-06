@@ -19,5 +19,5 @@ def solution_station_1(n):
  
  
 #insert number
-number = x
-print(solution_station_1(x))
+#number = x
+#print(solution_station_1(x))
