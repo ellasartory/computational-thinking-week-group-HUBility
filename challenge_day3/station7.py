@@ -1,4 +1,4 @@
-def solution_station_7(expression):
+def solution_station_7(expression, variables):
     # Define the values of variables a, b, c, d, and e
     variables = {'a': 3, 'b': -1, 'c': 4, 'd': 7, 'e': 0.5}
 
