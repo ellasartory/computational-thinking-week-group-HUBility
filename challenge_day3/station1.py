@@ -2,7 +2,7 @@
 #Fibonacci numbers sequence
 def solution_station_1(n):
     if n < 0:
-        raise ValueError
+        raise ValueError("Index number - n - must be a non-negative integer.")
     
     if n == 0:
         return 0
