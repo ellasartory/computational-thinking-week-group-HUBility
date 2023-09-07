@@ -7,6 +7,7 @@ e = 0.5
 def solution_station_7(expression):
     try:
         result = eval(expression)
+        result = int(result)
         return result
     except Exception as e:
         print(f"Error: {e}")
