@@ -30,12 +30,12 @@ for _, line in ipairs(lines) do
     for _, skill in ipairs({tech, soft, bus, creative, academic}) do
         summary[skill] = (summary[skill] or 0) + 1
     end
-
     local finalSummary
     if summary.super > 0 then
-        finalSummary = "super"
+        finalSummary = "super" 
+        --mistake was in here, Summaries instead of Summary
     elseif summary.good >= 2 then
-        finalSummaries = "good"
+        finalSummary = "good"
     elseif summary.middle >= 3 then
         finalSummary = "middle"
     else
