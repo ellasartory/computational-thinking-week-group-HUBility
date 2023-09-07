@@ -1,15 +1,14 @@
-def solution_station_7(expression):
-    # Define the values of variables a, b, c, d, and e
-    variables = {'a': 3, 'b': -1, 'c': 4, 'd': 7, 'e': 0.5}
+a = 3
+b = -1
+c = 4
+d = 7
+e = 0.5
 
+def solution_station_7(expression):
     try:
-        result = eval(expression, variables)
+        result = eval(expression)
+        result = int(result)
         return result
     except Exception as e:
         print(f"Error: {e}")
         return None
-
-# Example usage:
-expression = 'a * c'
-result = solution_station_7(expression)
-print(result)  # This will print the result of the expression
