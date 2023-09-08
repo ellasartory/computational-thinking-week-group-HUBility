@@ -1,7 +1,7 @@
 using DataFrames, CSV, Statistics
 
 # Read the CSV file into a DataFrame
-people_df = CSV.File("Julia_step3/data3.csv") |> DataFrame
+people_df = CSV.File("data3.csv") |> DataFrame
 
 # Function to classify a score based on quartiles
 function classify_score(score, quartiles)
