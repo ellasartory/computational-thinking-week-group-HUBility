@@ -8,29 +8,28 @@ fn main() -> io::Result<()> {
     let path = Path::new("data5.txt");
     let file = File::open(&path)?;
     let reader = io::BufReader::new(file);
-
+    
     let mut output = OpenOptions::new()
         .write(true)
         .create(true)
         .open("data6.txt")?;
-
-    for (index, line) in reader.lines().enumerate() {
+    
+    for (indexing, line) in reader.lines().enumerate() {
         let line = line?;
-
-        if index == 0 {
-            // This is the header, add "Evaluation" to it and write to file
+        
+        if indexing == 0 {
             writeln!(output, "{},Evaluation", line)?;
             continue;
         }
-
+        
         let parts: Vec<&str> = line.split(',').collect();
         if parts.len() < 7 {
-            continue; // Skip invalid lines
+            continue; 
         }
-
+        
         let mut total_score = 0;
         let mut num_skills = 0;
-
+        
         for &skill in &parts[1..=5] {
             match skill {
                 "low" => {
@@ -49,18 +48,18 @@ fn main() -> io::Result<()> {
                     total_score += 5;
                     num_skills += 1;
                 },
-                _ => (), // Skip if it's something else
+                _ => (),
             }
         }
-
+        
         let evaluation = if num_skills > 0 {
-            ((total_score as f32) / (num_skills as f32) * 10.0).round() / 10.0 // Calculate the evaluation score
+            (total_score as f32) / (num_skills as f32)
         } else {
-            0.0 // or whatever you want to set it to if no skills are evaluated
+            0.0 
         };
-
-        writeln!(output, "{},{},{:.1}", line, parts[6], evaluation)?;
+        
+        writeln!(output, "{},{},{}", line, parts[6], evaluation)?;
     }
-
+    
     Ok(())
 }
