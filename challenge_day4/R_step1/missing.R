@@ -32,6 +32,6 @@ json_data$people <- people_df
 json_text <- toJSON(json_data, pretty = TRUE)
 
 # Overwrite the original JSON file
-write(json_text, "data2.json")
+write(json_text, "C:\\Users\\hp\\Documents\\Robot_camp_HUB\\computational-thinking-week-group-HUBility\\challenge_day4\\fulldata\\data2.json")
 
 
